@@ -4,6 +4,7 @@ how to create a custom node
 1. Arrancar nodeRED dentro de un contenedo docker
     creamos una carpeta para el contenedor
     entramos en la carpeta y ejecutamos el comando > docker run --name <nombreContenedor> -p 1880:1880 -v <ruta local del contenedor>:/data <nombre de la imagen>
+    ejemplo:
         docker run --name mynodered -p 180:1880 -v <ruta local del contenedor>:/data nodered/node-red
 
 2. http://localhost:1880/ ya tenemos crriendo el contenedor
